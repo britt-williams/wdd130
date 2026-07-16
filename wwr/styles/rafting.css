@@ -24,7 +24,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 header,
@@ -79,10 +79,12 @@ article {
     color: #333
 }
 
-/* Class Selectors */
-
 .hero {
     position: relative;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero img {
