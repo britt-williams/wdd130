@@ -39,6 +39,8 @@ aside img {
 
 h1 {
     color: lightcoral;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 main img {
