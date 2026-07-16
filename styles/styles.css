@@ -1,26 +1,35 @@
-/* This is a CSS comment */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: lightgoldenrodyellow;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
 
 main {
-    max-width: 850px;
+    max-width: 840px;
+    padding: 1rem;
 }
 
 aside {
     width: 500px;
-    margin: auto;
-    border: 1px solid rgb(0 0 0 /0.4);
-    padding: 15px;
-    background-color: #E6F3FE;
-    color: black;
+    text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 120px;
 }
 
 aside img {
@@ -29,7 +38,7 @@ aside img {
 }
 
 h1 {
-    color: darkblue
+    color: lightcoral;
 }
 
 main img {
@@ -38,6 +47,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px grey;
+    float: right;
 }
 
 p {
@@ -45,7 +55,22 @@ p {
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 20px;
+    padding: 10px;
     border-top: 1px solid rgb(0 0 0 /0.4);
     text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: lightcoral;
+    color: #000;
+}
+
+.right-space {
+    padding: 2rem;
 }
