@@ -17,10 +17,12 @@ body {
     padding: 0.5rem;
     background-color: #bbb;
     color: #333;
+    justify-content: center;
 }
 
 .item1 {
     min-height: 100px;
+    justify-items: auto;
 }
 
 .item2 {
