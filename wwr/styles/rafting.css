@@ -93,7 +93,8 @@ h1 {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: #fff; /* white text*/
+    color: #fff;
+    /* white text*/
 }
 
 h2 {
@@ -152,6 +153,7 @@ h2 {
 
 .history p {
     text-align: justify;
+    padding: 5px;
 }
 
 .history img {
@@ -159,6 +161,7 @@ h2 {
     width: 100%;
     height: auto;
     place-items: center;
+    padding: 5px;
 }
 
 .adventure {
@@ -176,6 +179,7 @@ h2 {
     width: 200px;
     height: auto;
 }
+
 figcaption {
     place-self: center;
     padding: 4px 0;
