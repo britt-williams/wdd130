@@ -175,7 +175,7 @@ h2 {
     position: relative;
 }
 
-.home-hero article {
+.home-hero > div {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -282,7 +282,8 @@ a.trip {
     flex-grow: 1;
 }
 
-.purpose-grid a {
+.purpose-grid > a {
+    display: block;
     color: inherit;
     text-decoration: none;
 }
