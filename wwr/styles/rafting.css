@@ -236,22 +236,35 @@ a.trip {
 
 .purpose-grid figure {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    background-color: var(--accent2-color);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px var(--accent2-color);
 }
 
 .purpose-grid figcaption {
     position: absolute;
-    width: 75%;
-    bottom: 30px;
+    bottom: 40%;
     left: 50%;
     transform: translateX(-50%);
-    height: auto;
-    background: rgba(218, 194, 164, .9);
-    padding: 10px 10px;
-    text-align: center;
     border-radius: 5px;
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: var(--secondary-color);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: var(--accent1-color);
+    color: var(--primary-color);
+    text-shadow: none;
+    opacity: 0.9;
+}
+
+.purpose-grid figcaption:hover {
+    color: var(--accent2-color);
 }
 
 .purpose h2 {
@@ -260,6 +273,18 @@ a.trip {
     font-size: 1.9rem;
     margin-bottom: 50px;
     text-decoration-line: underline;
+}
+
+.purpose-grid p {
+    padding: 25px;
+    text-align: justify;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.purpose-grid a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .purpose-grid img {
@@ -561,7 +586,7 @@ button {
     box-shadow: 5px 5px 10px var(--accent2-color);
 }
 
-.trip-card h3 {
+.trip-card h2 {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -590,7 +615,6 @@ button {
 
 .trip-button {
     text-decoration: none;
-    padding: 10px;
     background-color: var(--accent1-color);
     color: var(--primary-color);
     border-radius: 5px;
